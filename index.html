@@ -61,11 +61,11 @@
            $(".button-class").on("click","#adduser",function(){
         
                $.ajax({
-               url:"H:\adduser.php",
+               url:"../crud/adduser.php",
                type:"POST",
                success :function(e)
                {
-                alert("hello");
+                alert(e);
                }
                });
            });
