@@ -21,17 +21,41 @@ $(document).ready(function() {
     btn+='</div>';
 
     //search user button
-    btn+='<button type="button" class="btn btn-outline-info" id="searchuser">SEARCH USER</button>';
+    btn+='<button type="button" class="btn btn-outline-info searchuser">SEARCH USER</button>';
    
    // update user button
-    btn+='<button type="button" class="btn btn-outline-warning" id="updateuser">UPDATE USER</button>';
+    btn+='<button type="button" class="btn btn-outline-warning updateuser">UPDATE USER</button>';
     
     //delete user button
-    btn+='<button type="button" class="btn btn-outline-danger" id="deleteuser">DELTER USER</button>';
+    btn+='<button type="button" class="btn btn-outline-danger deleteuser" >DELTER USER</button>';
 
     //show user button
-    btn+='<button type="button" class="btn btn-outline-secondary" id="showuser">SHOW ALL USER</button>';
-
-    
+    btn+='<button type="button" class="btn btn-outline-secondary showuser">SHOW ALL USER</button>';
      $(".button-class").append(btn);
 });
+{/* <div class="row bg-dark text-light rounded-5 p-5 " style="height:50% ">
+                <div class="col-md-5 ">
+                    <table class=" table table-dark table-striped " style="margin-bottom:50px ">
+                        <tbody>
+                            <tr style="padding:50px; ">
+                                <td class="rounded-5 " style="padding:50px; "><img src="img/vikram.jpg " class="img-fluid " alt="vikram singh " height="100% "></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-1 "></div>
+                <div class="col-md-5 ">
+                    <table class=" table table-dark table-striped " style="margin-bottom:50px ">
+                        <tbody>
+                            <tr>
+                                <td class="rounded-5 ">USER ID:1</td>
+                                <td class="rounded-5 ">VIKRAM SINGH</td>
+                                <td class="rounded-5 ">SINGH.VRP4034@GMAIL.COM</td>
+                                <td class="rounded-5 ">9120634606</td>
+                                <td class="rounded-5 ">SOFTWARE DEVELOPER</td>
+                                <td class="rounded-5 "> <button type="button " class="btn btn-outline-success " id="edituser ">EDIT USER</button> <button type="button " class="btn btn-outline-danger " id="deleteuser ">DELETE USER</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div> */}
